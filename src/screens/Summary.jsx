@@ -1,10 +1,12 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import {Text, View} from 'react-native';
 
 const Summary = () => {
   return (
-    <View><Text>Summary</Text></View>
-  )
-}
+    <View>
+      <Text>Summary</Text>
+    </View>
+  );
+};
 
-export default Summary
+export default Summary;
