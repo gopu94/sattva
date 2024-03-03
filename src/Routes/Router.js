@@ -12,7 +12,7 @@ const Router = () => {
   const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
-      <AppHeader />
+      {/* <AppHeader /> */}
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="MainTabs" component={TabNavigation} />
         <Stack.Screen name="ImageScreens" component={ImageEditScreen} />

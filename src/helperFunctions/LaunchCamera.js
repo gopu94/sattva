@@ -16,7 +16,7 @@ const LaunchCamera = async navigation => {
       return;
     } else {
       let imageUri = response.uri || response.assets?.[0]?.uri;
-      console.log(imageUri);
+      console.log(imageUri, 'from launchcamera');
       navigation.navigate('ImageScreens', {imageUri: imageUri});
     }
   });

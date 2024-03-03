@@ -6,14 +6,14 @@ import AppHeader from '../components/AppHeader';
 import Home from '../screens/Home';
 import Summary from '../screens/Summary';
 import Icon from 'react-native-remix-icon';
-import LaunchCamera from '../components/LaunchCamera';
+import LaunchCamera from '../helperFunctions/LaunchCamera';
 
 const TabNavigation = ({navigation}) => {
   const Tab = createBottomTabNavigator();
 
   return (
     <View style={{flex: 1}}>
-      {/* <AppHeader /> */}
+      <AppHeader />
       <Tab.Navigator
         screenOptions={({route}) => ({
           headerShown: false,
